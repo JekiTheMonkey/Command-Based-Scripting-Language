@@ -1,0 +1,21 @@
+PrintString "This is a command-based language"
+PrintString "Therefore, this is a command-based script."
+Newline
+PrintString  "...and it's really \"quite\" boring."
+Newline
+PrintStringLoop "This string has been repeated four times." 4
+Newline
+
+PrintInteger 3
+PrintFloat 3.14
+PrintBool true
+Newline
+
+DefConst _SOMETHING 3
+DefConst RED 0
+DefConst BLUE 2
+DefConst Green 3
+
+PrintInteger _SOMETHING
+PrintInteger red
+PrintInteger GREEN
