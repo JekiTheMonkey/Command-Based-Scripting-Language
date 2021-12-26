@@ -1,3 +1,14 @@
+// Available command list:
+// PrintString      (String)
+// PrintStringLoop  (String, int)
+// PrintInteger     (int)
+// PrintFloat       (float)
+// PrintBool        (bool)
+// Newline          ()
+// DefConst         (String, int)
+// PrintDefConsts   ()
+// Repeat           ()
+
 PrintString "This is a command-based language"
 PrintString "Therefore, this is a command-based script."
 Newline
@@ -11,11 +22,11 @@ PrintFloat 3.14
 PrintBool true
 Newline
 
+PrintDefConsts
+
 DefConst _SOMETHING 3
 DefConst RED 0
-DefConst BLUE 2
-DefConst Green 3
 
-PrintInteger _SOMETHING
-PrintInteger red
-PrintInteger GREEN
+PrintDefConsts
+
+DefConst RED2 0
